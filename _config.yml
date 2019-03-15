@@ -6,7 +6,7 @@
 name: Douglas Smith
 
 # Short bio or description (displayed in the header)
-description: programming language enthusiast currently enjoying 'swift' and 'rust' -both are quite nice!
+description: programming language enthusiast 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/2074980?s=400&v=4
@@ -27,7 +27,7 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   twitter: dsv2xm
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
+  youtube: https://www.youtube.com/channel/UCAYe0lfH071A73To0IO1X6Q
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
