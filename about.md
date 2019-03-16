@@ -4,11 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+where to start?
+I am retired and I really like it!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Since retiring I have perfected the grilled cheese sandwich.
+
+I blog mostly for fun. 
+
+And I spell quite poorly.
 
 ### Contact me
 
