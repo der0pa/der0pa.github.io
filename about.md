@@ -13,11 +13,12 @@ I have perfected the grilled cheese sandwich.
 - you mound grated chees on each half.
 - you cover with lip for last 3 minutes
 
-I now have a blog.   
+You may already know. I have a blog. 
 
-My spelling is a·tro·cious! please overlook
+
+ps: My spelling is a·tro·cious! please overlook
 
 ### Contact me
 
 [dsv2xm@gmail.com](mailto:dsv2xm@gmail.com)  
-I rarly check it so don't be hurt if you get no reply.
+
