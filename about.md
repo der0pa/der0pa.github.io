@@ -11,7 +11,7 @@ I retired in 2018
 I have perfected the grilled cheese sandwich.
 - you grill it openfaced with olive oil not butter.
 - you mound grated chees on each half.
-- you cover with lip for last 3 minutes
+- you cover with lid for last 3 minutes
 
 You may already know. I have a blog. 
 
