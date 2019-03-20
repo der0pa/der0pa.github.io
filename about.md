@@ -3,18 +3,21 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-where to start?  
-I am retired and I really like it!
+    
+I retired in 2018   
 
 ### More Information
 
-Since retiring I have perfected the grilled cheese sandwich.
+I have perfected the grilled cheese sandwich.
+- you grill it openfaced with olive oil not butter.
+- you mound grated chees on each half.
+- you cover with lip for last 3 minutes
 
-I blog mostly for fun. 
+I now have a blog.   
 
-And my spelling is atroushush!
+My spelling is a·tro·cious! please overlook
 
 ### Contact me
 
-[dsv2xm@gmail.com](mailto:dsv2xm@gmail.com)
+[dsv2xm@gmail.com](mailto:dsv2xm@gmail.com)  
+I rarly check it so don't be hurt if you get no reply.
