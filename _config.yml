@@ -70,7 +70,16 @@ kramdown:
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
+<<<<<<< HEAD
   
+=======
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll_github_sample  
+>>>>>>> 6417b9b1f665ab09b36fd667adb8b4fbe68ea0e4
 # Exclude these files from your production _site
 exclude:
   - Gemfile
@@ -79,6 +88,7 @@ exclude:
   - README.md
   - CNAME
 
+<<<<<<< HEAD
 # Use the following plug-ins
 plugins: 
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
@@ -94,4 +104,9 @@ plugins:
   - jekyll-relative-links
 
 # gems: [jekyll_github_sample]
+=======
+# gems: [jekyll_github_sample]
+# this is not available as plugin on github pages. 
+
+>>>>>>> 6417b9b1f665ab09b36fd667adb8b4fbe68ea0e4
 
