@@ -84,7 +84,7 @@ exclude:
   - README.md
   - CNAME
 
-gems: [jekyll_github_sample]
- 
+# gems: [jekyll_github_sample]
+# this is not available as plugin on github pages. 
 
 
