@@ -3,7 +3,7 @@ layout: post
 author: der0pa
 ---
 
-* Rust
+* Rust - a language for the future!
 
 I am about to undertake writing a weekly blog post about Rust. 
 this post is week 1 of 100. I figured it would take at least 2 years to 
@@ -11,6 +11,11 @@ become viable working with rust. for the first week i am going thru the first fe
 
 these posts will become my personal 'cook book' and are written as notes primarily for me. i am no writer by any means but i will do my best.
 
+i work from a basic chromebook with my dev enviornment is:
+
+* chromebook with a linux container
+* vs-code 
+* jekyll web server installed locally and at [der0pa.github.io](der0pa.github.io)
 
 the code from guessing game tutorial
 
