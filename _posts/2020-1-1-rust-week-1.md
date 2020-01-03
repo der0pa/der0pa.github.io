@@ -2,13 +2,14 @@
 layout: post
 author: der0pa
 ---
-Learning Rust
 
-100 weeks of rust / wasm
+* Rust
 
-steps for week one: I read first part of 'the book' and compiled the examples here.
+I am about to undertake writing a weekly blog post about Rust. 
 
-work thru examples in the rust-book 
+week 1 of 100
+
+working thru examples in the rust-book 
 
 test gist embed:
 {% gist b5b99f320530b29c3cc977f747540279 fib.rs %}
