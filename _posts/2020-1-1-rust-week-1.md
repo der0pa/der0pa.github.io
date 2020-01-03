@@ -10,15 +10,18 @@ this post is week 1 of 100. I figured it would take at least 2 years to
 become viable working with rust. for the first week i am going thru the first few chapters of the [the rust book](https://doc.rust-lang.org/stable/book/title-page.html)  
 
 these posts will become my personal 'cook book' and are written as notes primarily for me. i am no writer by any means but i will do my best.
-
-i work from a basic chromebook with my dev enviornment is:
+ 
+current dev enviornment:
 
 * chromebook with a linux container
-* vs-code 
-* jekyll web server installed locally and at [der0pa.github.io](der0pa.github.io)
+* vs-code with rust-language-server 
+* jekyll web server installed locally 
+* jekyll on github-pages [der0pa.github.io](https://der0pa.github.io) 
+* set up for wasm / node  
+* and  **Rust**
+
 
 the code from guessing game tutorial
-
 {% gist e2f72980d0f76027fd7191279f40abec %}
 
 
