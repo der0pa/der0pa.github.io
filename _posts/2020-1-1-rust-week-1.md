@@ -6,16 +6,19 @@ author: der0pa
 * Rust
 
 I am about to undertake writing a weekly blog post about Rust. 
+this post is week 1 of 100. I figured it would take at least 2 years to 
+become viable working with rust. for the first week i am going thru the first few chapters of the [the rust book](https://doc.rust-lang.org/stable/book/title-page.html)  
 
-week 1 of 100
-
-working thru examples in the rust-book 
-
-test gist embed:
-{% gist b5b99f320530b29c3cc977f747540279 fib.rs %}
-recursion
-{% gist 431d30450e7d0b816f7b71a6a3c35bc6 %}
+these posts will become my personal 'cook book' and are written as notes primarily for me. i am no writer by any means but i will do my best.
 
 
-[source code for guessing game tutorial](
-https://github.com/der0pa/one-hundred-weeks/blob/master/guessing_game/src/main.rs) 
+the code from guessing game tutorial
+
+{% gist e2f72980d0f76027fd7191279f40abec %}
+
+
+[test-1](https://drive.google.com/open?id=1KZhgMm36m8h_jWLcYxJB281gS5ddMFqL)
+
+
+
+more to come...
