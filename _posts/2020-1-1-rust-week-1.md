@@ -33,3 +33,124 @@ link is not currently working.
 
 
 more to come...
+
+consumed all of 'lin clarks' talks and blog posts on wasm-wasi-wasmtime. she is a very good teacher. 
+
+random shit:
+
+the `char` type in rust is four bytes in size and represents a Unicode scalar Value. 
+
+```
+ U+D7FF
+
+ fn main() {
+    let c = 'z';
+    let z = 'ℤ';
+    let heart_eyed_cat = '😻';
+}
+
+Integer Types in Rust
+
+Length	Signed	Unsigned
+8-bit	i8	u8
+16-bit	i16	u16
+32-bit	i32	u32
+64-bit	i64	u64
+128-bit	i128	u128
+arch	isize	usize
+```
+
+```
+Integer Literals in Rust
+
+Number literals	Example
+Decimal	        98_222
+Hex	            0xff
+Octal	        0o77
+Binary	        0b1111_0000
+Byte (u8 only)	b'A'
+```
+Floating-Point Types
+
+f32 and f64 - 32 bits and 64 bits -respectively
+
+Numberic Operations in Rust.
+
+```
+fn main() {
+    // addition
+    let sum = 5 + 10;
+
+    // subtraction
+    let difference = 95.5 - 4.3;
+
+    // multiplication
+    let product = 4 * 30;
+
+    // division
+    let quotient = 56.7 / 32.2;
+
+    // remainder
+    let remainder = 43 % 5;
+}
+
+```
+
+Booleans are of **true** or **false** values.
+
+Compound Types  :: tuples and arrays.
+
+```
+fn main() {
+    let tup = (500, 6.4, 1);
+
+    let (x, y, z) = tup;
+
+    println!("The value of y is: {}", y);
+}
+```
+
+Loops / move to control flows section
+
+{% gist cc44c32cadc0329e8a5114a9b326828a %} 
+
+```
+the above rust code outputs:
+   Compiling loops v0.1.0 (/home/395currahee/projects/der0pa.github.io/rust-code/loops)
+    Finished dev [unoptimized + debuginfo] target(s) in 9.20s
+     Running `target/debug/loops`
+3
+2
+1
+LIFTOFF!
+The result is 20
+Hello, world!
+the value is: 10
+the value is: 20
+the value is: 30
+the value is: 40
+the value is also: 10
+the value is also: 20
+the value is also: 30
+the value is also: 40
+the value is also: 50
+4!
+3!
+2!
+1!
+LIFTOFF!!!
+395currahee@penguin:~/projects/der0pa.github.io/rust-code/loops$ 
+```
+some vector coding in rust:
+
+{% gist 58b80c885ba64f6deaf12afe25dc6da6 %}
+
+create a vector:
+
+#### let a: [i32; 5] = [1, 2, 3, 4, 5];
+
+more to come...
+
+
+
+
