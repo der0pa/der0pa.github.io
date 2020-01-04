@@ -21,10 +21,10 @@ current dev enviornment:
 * and  **Rust**
 
 
-the code from guessing game tutorial
+code from the guessing game tutorial is below
 {% gist e2f72980d0f76027fd7191279f40abec %}
 
-
+link is not currently working.
 [test-1](https://drive.google.com/open?id=1KZhgMm36m8h_jWLcYxJB281gS5ddMFqL)
 
 
