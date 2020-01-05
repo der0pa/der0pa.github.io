@@ -114,8 +114,8 @@ Loops / move to control flows section
 
 {% gist cc44c32cadc0329e8a5114a9b326828a %} 
 
+rust code above outputs to the console as follows below:
 ```
-the above rust code outputs:
    Compiling loops v0.1.0 (/home/395currahee/projects/der0pa.github.io/rust-code/loops)
     Finished dev [unoptimized + debuginfo] target(s) in 9.20s
      Running `target/debug/loops`
@@ -148,9 +148,24 @@ some vector coding in rust:
 create a vector:
 
 #### let a: [i32; 5] = [1, 2, 3, 4, 5];
+same as below - vec! is a macro 
+#### let mut v = vec![1, 2, 3, 4, 5];
 
-more to come...
-
+functions work sheet: 
+{% gist 7fcfad048f05979cb713463596cfe693 %}
+below is the console output
+```
+395currahee@penguin:~/projects/der0pa.github.io/rust-code/rust-functions$ cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in 0.05s
+     Running `target/debug/rust-functions`
+1the value of x is: 5
+2the value of y is: 6
+3the value of x is: 5
+4the value of y is: 5
+5the value of x is: 5
+6the value of x is: 9
+```
+end week one
 
 
 
