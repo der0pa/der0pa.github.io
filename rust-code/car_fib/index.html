@@ -1,0 +1,19 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>This is the title of the webpage!</title>
+  </head>
+  <body>
+    <script>
+        (async () => {
+            const bytes = await fetch("target/wasm32-unknown-unknown/debug/car_fib.wasm");
+            const response = await bytes.arrayBuffer();
+            const result = await WebAssembly.instantiate(response, {});
+            console.log(result.instance.exports.fibonacci(20));
+       
+        })();
+       </script>
+    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+  </body>
+</html>
