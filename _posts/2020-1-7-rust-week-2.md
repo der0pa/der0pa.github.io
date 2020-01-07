@@ -17,7 +17,7 @@ testing C program
 {% gist c334b061fe85661c94fcf36e0e5a28ec %}
 
 termial output:
-```s
+```console
 395currahee@penguin:~/projects/wasmtime/wasi-tutorial/demo$ cargo build --target wasm32-wasi
    Compiling demo v0.1.0 (/home/395currahee/projects/wasmtime/wasi-tutorial/demo)
     Finished dev [unoptimized + debuginfo] target(s) in 3.34s
@@ -25,7 +25,7 @@ termial output:
 here is #hello world! in wasmtime  ... possibly take your seat!
 
 more terminal output:
-```s
+```console
 395currahee@penguin:~/projects/wasmtime/wasi-tutorial$ wasmtime --dir=. --dir=/tmp demo.wasm test.txt /tmp/somewhere.txt
 395currahee@penguin:~/projects/wasmtime/wasi-tutorial$ cat /tmp/somewhere.txt 
 hello world!
@@ -34,7 +34,7 @@ hello world!
 and the rust version of this:
 {% gist 3fe58f4fafa7bfbd5d10096f3bb6d190 %}
 
-```s
+```console
 $ wasmtime --dir=. --dir=/tmp demo.wasm test.txt /tmp/somewhere.txt
 $ cat /tmp/somewhere.txt
 hello world
@@ -43,7 +43,7 @@ wasmtime uses a security model which is capability-based.
 allows sandboxing and file read/write access on specified local directories 
 
 console output: 
-```s
+```console
 395currahee@penguin:~/projects/der0pa.github.io/rust-code/wasmtime/wasi-tutorial$ nano demo.wat
 395currahee@penguin:~/projects/der0pa.github.io/rust-code/wasmtime/wasi-tutorial$ wasmtime demo.wat
 hello world
@@ -57,10 +57,11 @@ the source code example web assembly **text** format   ... looks clojure like
 installed [bat](https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb) to attempt syntax highlighting in the .md file.
 
 expose rust syntax highlighting
-```s
+```console
 395currahee@penguin:~/projects/der0pa.github.io/rust-code/wasmtime/wasi-tutorial/demo$ bat src/*.rs
 ```
-above command 'bat src/*rs'
+above command 
+# bat src/*rs #
 console output/print
 
 ```rust
