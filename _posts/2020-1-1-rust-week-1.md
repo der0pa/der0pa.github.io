@@ -76,7 +76,7 @@ f32 and f64 - 32 bits and 64 bits -respectively
 
 Numberic Operations in Rust.
 
-```
+```rust
 fn main() {
     // addition
     let sum = 5 + 10;
