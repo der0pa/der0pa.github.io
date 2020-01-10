@@ -1,4 +1,13 @@
 #![allow(unused_variables)]
+
+/* 
+   ownership rules
+   A. each value has a var thats called its `owner`
+   B. only one `owner` per value
+   C. when the `owner` goes out of scope, its value is dropped
+
+*/
+
 fn main() {
 
     let a = [1,2,3,4,5];
