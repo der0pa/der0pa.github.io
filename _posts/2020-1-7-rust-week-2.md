@@ -119,3 +119,13 @@ more code
 {% gist 04fda0b05c8a4a7c31cebda29fda39ba %}
 
 [playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2015&gist=04fda0b05c8a4a7c31cebda29fda39ba)
+
+
+finished week up looking at 'rust by example'  tuples in particular
+
+code source:
+[rust by example](https://doc.rust-lang.org/rust-by-example/primitives/tuples.html)
+
+rust-by-example
+{% gist 4629a9209cb73e31fdccc1dd05fffc54 %} 
+week three comming next
