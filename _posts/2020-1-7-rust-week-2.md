@@ -105,4 +105,17 @@ console output/print
   31   │     }
   32   │ }
 ```
-more to come...
+
+# Ownership
+
+[video on borrowing](https://youtu.be/vtUMT-GNaYE)
+
+
+ownership code 
+{% gist 6c441e04a750a4c3a1142ac39931e881 %}
+
+more code
+
+{% gist 04fda0b05c8a4a7c31cebda29fda39ba %}
+
+[playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2015&gist=04fda0b05c8a4a7c31cebda29fda39ba)
