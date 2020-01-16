@@ -14,6 +14,7 @@ let mut user1 = User {
     sign_in_count: 1,
 }; 
 user1.email = String::from("anotheremail@example.com");
+println!("{:?}", user1.email);
 
 let user2 = User {
     email: String::from("another@example.com"),
@@ -36,6 +37,6 @@ struct Point(i32, i32, i32);
 let black = Color(0, 0, 0);
 let origin = Point(0, 0, 0);
 
-} // end_main()
+} // close of main()
 
 
