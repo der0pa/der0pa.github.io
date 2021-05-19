@@ -1,0 +1,90 @@
+---
+layout: post
+author: der0pa
+---
+
+* Rust - a language for the future!
+
+[Arrays and Slices from rust-by-example book](https://doc.rust-lang.org/rust-by-example/primitives/array.html#arrays-and-slices)
+
+Jumping around to much... lets stay focused on basics
+
+
+[rust book chapter 13.1](https://doc.rust-lang.org/book/ch13-01-closures.html). 
+Closures: Anonymous Functions that can 'Capture Their Environment'
+define code in one place and execute that code where we acutally need the result. this is a case for 'closures'.
+
+```rust
+let expensive_closure = |num| {           //  params to closure between |..| 
+    println!("calculating slowly...")     // body of closure
+    thread::sleep(Duration::from_sec(2));
+    num                                   // num will be the return value
+};                                        // notice no ; after 'num'
+```
+or here with explict type annotation 
+```rust
+let expensive_closure = |num: u32| -> u32 {     //  also OK
+    println!("calculating slowly...")    
+    thread::sleep(Duration::from_sec(2));
+    num                                  
+};                                       
+```
+```rust
+// if the body of a closure is a single expression you can drop the curly-braces.  
+// fn and closure diff. all lets are equal. fn add_one_v1 is a single expression.  no semi-colon at closing } bracket
+fn add_one_v1    (x: u32) -> u32 { x + 1 }  // a function named add_one_v1  
+let add_one_v2 = |x: u32| -> u32 { x + 1 }; // a closure bound to add_one_v2 
+let add_one_v3 = |x| { x + 1 }; // same as above  
+let add_one_v4 = |x| x + 1  ; // drop curlies  
+```
+
+note: memoization == ```lazy evaluation```
+
+[chapter 5.2 rust book](https://doc.rust-lang.org/book/ch05-02-example-structs.html)
+
+{% gist fef6395720b3dc99e243c799faae1118 %} 
+
+[chapter 5.3 rust book](https://doc.rust-lang.org/book/ch05-03-method-syntax.html)
+
+{% gist e8d17d715f62fbd1d1f2697b08a1bdba %}
+
+
+# Enums and Pattern Matching   
+[chapter 6 rust book](https://doc.rust-lang.org/book/ch06-00-enums.html)
+
+  1 enums enumerate the possible **variants** of the type.
+  2 enums are similar to (ADTs) in functional langs. 
+  3 we will look at ```Option```, ```match``` and ```if let```
+
+```rust
+enum IpAddr {
+    V4(u8, u8, u8, u8),
+    V6(String), 
+}
+
+/*
+let four = ipAddrKind::V4;
+let five = ipAddrKind::V6;
+
+struct IpAddr {
+    kind: IpAddrKind,
+    address: String,
+}
+*/
+
+let home = IpAddr::V4(127, 0, 0, 1));
+
+let loopback = IpAddr::V6(String::from("::1"));
+``` 
+
+## Option<T>  ```Some``` or ```None```  
+
+```Option<T> ``` included in prelude 
+
+option is defined below:
+
+```rust
+enum Option<T> {
+    Some(T),
+    None,
+}
